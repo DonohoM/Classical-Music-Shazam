@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classical Music Shazam</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Classical Music Shazam</h1>
+        <p class="subtitle">Listen for a pitch/key, or hum a theme to identify the piece.</p>
+      </header>
+
+      <section class="card" id="mic-card">
+        <button id="mic-toggle" type="button">Start Listening</button>
+        <span id="mic-status" class="status">idle</span>
+      </section>
+
+      <section class="card" id="pitch-card">
+        <h2>Live Pitch</h2>
+        <div class="pitch-readout">
+          <span id="note-name">—</span>
+          <span id="cents-off"></span>
+        </div>
+        <div class="meta-row">
+          <span>Frequency: <span id="frequency">—</span> Hz</span>
+        </div>
+      </section>
+
+      <section class="card" id="key-card">
+        <h2>Estimated Key</h2>
+        <div class="key-readout" id="key-name">—</div>
+        <div class="meta-row">
+          <span id="key-confidence"></span>
+        </div>
+      </section>
+
+      <section class="card" id="melody-card">
+        <h2>Identify a Melody</h2>
+        <p class="hint">
+          Hum or play the theme, then stop. The app compares the note pattern
+          against a small seed library of famous classical themes.
+        </p>
+        <div class="melody-controls">
+          <button id="melody-toggle" type="button" disabled>Record Melody</button>
+          <button id="melody-clear" type="button" disabled>Clear</button>
+        </div>
+        <div class="melody-trace" id="melody-trace"></div>
+        <ol id="melody-results" class="results"></ol>
+      </section>
+
+      <footer>
+        <p>
+          Seed database has ~<span id="db-count">0</span> themes. See
+          <code>src/data/themes.json</code> to add more.
+        </p>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

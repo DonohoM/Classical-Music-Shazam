@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/audio/keyfinder.ts","./src/audio/melodyrecorder.ts","./src/audio/microphone.ts","./src/audio/noteutils.ts","./src/audio/pitchdetector.ts","./src/matching/database.ts","./src/matching/matcher.ts"],"version":"5.9.3"}
