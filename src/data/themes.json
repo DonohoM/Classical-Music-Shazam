@@ -3,84 +3,210 @@
     "id": "beethoven-5-1",
     "title": "Symphony No. 5 in C minor, I. Allegro con brio (opening motif)",
     "composer": "Ludwig van Beethoven",
-    "notes": ["G4", "G4", "G4", "D#4", "F4", "F4", "F4", "D4"]
+    "notes": [
+      "G4",
+      "G4",
+      "G4",
+      "D#4",
+      "F4",
+      "F4",
+      "F4",
+      "D4"
+    ]
   },
   {
     "id": "beethoven-fur-elise",
     "title": "Für Elise (Bagatelle No. 25 in A minor)",
     "composer": "Ludwig van Beethoven",
-    "notes": ["E5", "D#5", "E5", "D#5", "E5", "B4", "D5", "C5", "A4"]
+    "notes": [
+      "E5",
+      "D#5",
+      "E5",
+      "D#5",
+      "E5",
+      "B4",
+      "D5",
+      "C5",
+      "A4"
+    ]
   },
   {
     "id": "beethoven-9-ode-to-joy",
     "title": "Symphony No. 9 in D minor, IV. \"Ode to Joy\" theme",
     "composer": "Ludwig van Beethoven",
-    "notes": ["E4", "E4", "F4", "G4", "G4", "F4", "E4", "D4", "C4", "C4", "D4", "E4", "E4", "D4", "D4"]
+    "notes": [
+      "E4",
+      "E4",
+      "F4",
+      "G4",
+      "G4",
+      "F4",
+      "E4",
+      "D4",
+      "C4",
+      "C4",
+      "D4",
+      "E4",
+      "E4",
+      "D4",
+      "D4"
+    ]
   },
   {
     "id": "beethoven-moonlight",
     "title": "Piano Sonata No. 14 in C# minor, \"Moonlight\", I (opening ostinato)",
     "composer": "Ludwig van Beethoven",
-    "notes": ["C#3", "G#3", "C#4", "C#3", "G#3", "C#4", "C#3", "G#3", "C#4"]
+    "notes": [
+      "C#3",
+      "G#3",
+      "C#4",
+      "C#3",
+      "G#3",
+      "C#4",
+      "C#3",
+      "G#3",
+      "C#4"
+    ]
   },
   {
     "id": "pachelbel-canon",
     "title": "Canon in D (ground bass)",
     "composer": "Johann Pachelbel",
-    "notes": ["D3", "A3", "B3", "F#3", "G3", "D3", "G3", "A3"]
+    "notes": [
+      "D3",
+      "A3",
+      "B3",
+      "F#3",
+      "G3",
+      "D3",
+      "G3",
+      "A3"
+    ]
   },
   {
     "id": "bach-toccata-d-minor",
     "title": "Toccata and Fugue in D minor, BWV 565 (opening flourish)",
     "composer": "Johann Sebastian Bach",
-    "notes": ["A4", "G4", "F4", "E4", "D4", "C#4", "D4"]
+    "notes": [
+      "A4",
+      "G4",
+      "F4",
+      "E4",
+      "D4",
+      "C#4",
+      "D4"
+    ]
   },
   {
     "id": "grieg-mountain-king",
     "title": "\"In the Hall of the Mountain King\" (from Peer Gynt)",
     "composer": "Edvard Grieg",
-    "notes": ["D3", "E3", "F3", "G3", "A3", "F3", "D3"]
+    "notes": [
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A3",
+      "F3",
+      "D3"
+    ]
   },
   {
     "id": "bizet-habanera",
     "title": "Habanera (from Carmen)",
     "composer": "Georges Bizet",
-    "notes": ["D5", "C#5", "C5", "B4", "A#4", "A4", "D5"]
+    "notes": [
+      "D5",
+      "C#5",
+      "C5",
+      "B4",
+      "A#4",
+      "A4",
+      "D5"
+    ]
   },
   {
     "id": "rossini-william-tell",
     "title": "William Tell Overture (finale)",
     "composer": "Gioachino Rossini",
-    "notes": ["C5", "E5", "G5", "C6", "G5", "E5", "C5"]
+    "notes": [
+      "C5",
+      "E5",
+      "G5",
+      "C6",
+      "G5",
+      "E5",
+      "C5"
+    ]
   },
   {
     "id": "mozart-eine-kleine",
     "title": "Eine kleine Nachtmusik, K. 525, I. Allegro (opening)",
     "composer": "Wolfgang Amadeus Mozart",
-    "notes": ["G3", "D4", "G4", "B4", "D5", "G5"]
+    "notes": [
+      "G3",
+      "D4",
+      "G4",
+      "B4",
+      "D5",
+      "G5"
+    ]
   },
   {
     "id": "wagner-ride-of-valkyries",
     "title": "\"Ride of the Valkyries\" (from Die Walküre)",
     "composer": "Richard Wagner",
-    "notes": ["B4", "D5", "F#5", "B5", "D5", "B4"]
+    "notes": [
+      "B4",
+      "D5",
+      "F#5",
+      "B5",
+      "D5",
+      "B4"
+    ]
   },
   {
     "id": "mendelssohn-wedding-march",
     "title": "Wedding March (from A Midsummer Night's Dream)",
     "composer": "Felix Mendelssohn",
-    "notes": ["C5", "C5", "C5", "G5", "F5", "E5", "D5", "C5"]
+    "notes": [
+      "C5",
+      "C5",
+      "C5",
+      "G5",
+      "F5",
+      "E5",
+      "D5",
+      "C5"
+    ]
   },
   {
     "id": "vivaldi-spring",
     "title": "\"Spring\" from The Four Seasons, I. Allegro (ritornello)",
     "composer": "Antonio Vivaldi",
-    "notes": ["E5", "E5", "E5", "C#5", "D5", "E5", "E5", "E5"]
+    "notes": [
+      "E5",
+      "E5",
+      "E5",
+      "C#5",
+      "D5",
+      "E5",
+      "E5",
+      "E5"
+    ]
   },
   {
     "id": "bach-air-g-string",
     "title": "Air on the G String (from Orchestral Suite No. 3)",
     "composer": "Johann Sebastian Bach",
-    "notes": ["D5", "C#5", "B4", "A4", "G4", "F#4", "G4"]
+    "notes": [
+      "D5",
+      "C#5",
+      "B4",
+      "A4",
+      "G4",
+      "F#4",
+      "G4"
+    ]
   }
 ]

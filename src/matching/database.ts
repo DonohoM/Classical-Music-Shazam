@@ -41,10 +41,20 @@ export function toIntervals(midiSequence: number[]): number[] {
   return intervals;
 }
 
+/**
+ * Collapses consecutive repeated pitches (e.g. G4, G4, G4 -> G4). The live
+ * melody recorder never emits a repeat back-to-back, so database entries
+ * must be normalized the same way or held/repeated notes (very common in
+ * real melodies) silently degrade matching.
+ */
+function dedupeConsecutive(sequence: number[]): number[] {
+  return sequence.filter((value, index) => index === 0 || value !== sequence[index - 1]);
+}
+
 export function loadThemes(): Theme[] {
   return (rawThemes as Array<Omit<Theme, "midi" | "intervals">>).map(
     (theme) => {
-      const midi = theme.notes.map(noteNameToMidi);
+      const midi = dedupeConsecutive(theme.notes.map(noteNameToMidi));
       return { ...theme, midi, intervals: toIntervals(midi) };
     },
   );
